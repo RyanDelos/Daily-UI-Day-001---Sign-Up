@@ -1,0 +1,105 @@
+/* General CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10/16 = 0.625 * 100 */
+}
+
+body {
+  background-color: #f7d3ca;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Styles */
+.container {
+  background-color: #a1a2ca;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem auto;
+  max-width: 120rem;
+  padding: 3.2rem;
+}
+
+.frenchie {
+  width: 65%;
+}
+
+/* CTA Text area */
+.cta-container {
+  background-color: #f7d3ca;
+  padding: 3.2rem 5rem;
+}
+
+.cta-textbox {
+  margin: 2.4rem auto;
+  text-align: center;
+}
+
+.logo {
+  color: #55557d;
+  font-size: 5.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.company-name {
+  margin-left: 1.6rem;
+}
+
+.cta-heading {
+  color: #544f4c;
+  font-size: 3.6rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+}
+
+/* CTA Form */
+
+.form-box {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 2.4rem;
+}
+
+.form-box label {
+  font-size: 1.6rem;
+}
+
+.form-box input,
+.form-box select {
+  color: inherit;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  width: 100%;
+}
+
+.form-box input::placeholder {
+  color: #a99e98;
+}
+
+.form-box *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(121, 122, 179, 0.5);
+}
+
+.btn {
+  background-color: #ffe164;
+  border-radius: 9px;
+  color: #544f4c;
+  font-family: inherit;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+  padding: 2.4rem;
+}
+
+.btn:hover {
+  background-color: #fff0b1;
+}

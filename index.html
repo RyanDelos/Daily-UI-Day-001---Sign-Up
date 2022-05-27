@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/bb515311f9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Day 001 Sign Up</title>
+  </head>
+  <body>
+    <section id="cta">
+      <div class="container">
+        <div class="img-box">
+          <img class="frenchie" src="img/frenchie.png" />
+        </div>
+        <div class="cta-container">
+          <div class="cta-textbox">
+            <i class="logo fa-solid fa-paw"
+              ><span class="company-name"> Pawz</span></i
+            >
+            <h1 class="cta-heading">Your fury friend is waiting!</h1>
+          </div>
+          <div class="form-container">
+            <form
+              class="form-box"
+              enctype="text/plain"
+              method="get"
+              target="_blank"
+            >
+              <div>
+                <label for="full-name"> Full Name </label>
+                <input
+                  id="full-name"
+                  name="full-name"
+                  placeholder="Franky The Frenchie"
+                  required
+                  type="text"
+                />
+              </div>
+
+              <div>
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="doglover23@ilovedogs.com"
+                  required
+                  type="email"
+                />
+              </div>
+
+              <div>
+                <label for="breed">Breed</label>
+                <input
+                  id="breed"
+                  name="breed"
+                  placeholder="Pet's Breed"
+                  required
+                  type="text"
+                />
+              </div>
+
+              <div>
+                <label for="weight">Weight?</label>
+                <select id="weight" name="weight" required>
+                  <option value="">Select weight of fury friend:</option>
+                  <option value="small">0-25 lbs</option>
+                  <option value="medium">25-50 lbs</option>
+                  <option value="larg">50-100 lbs</option>
+                  <option value="extra-large">100+ lbs</option>
+                </select>
+              </div>
+              <div>
+                <label for="gender">Gender?</label>
+                <select id="gender" name="gender" required>
+                  <option value="">Select gender of fury friend:</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+              <button class="btn">Adopt Me 🥺</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
